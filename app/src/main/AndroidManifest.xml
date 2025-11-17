@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TracksApp">
         <activity
+            android:name=".ListTracksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddTrackActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

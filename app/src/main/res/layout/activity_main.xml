@@ -7,16 +7,32 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/buttonListAllTraks"
-        android:layout_width="133dp"
-        android:layout_height="116dp"
-        android:text="List All Tracks"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <!-- Button with MaterialButton, use strings and contentDescription -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonAddNewTrack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/add_new_track_desc"
+        android:text="@string/add_new_track"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonListAllTracks"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintVertical_bias="0.5" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonListAllTracks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/list_all_tracks_desc"
+        android:text="@string/list_all_tracks"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddNewTrack"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

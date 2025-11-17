@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TracksApp</string>
+    <string name="add_new_track">ADD NEW TRACK</string>
+    <string name="add_new_track_desc">Agregar nueva pista</string>
+    <string name="list_all_tracks">List All Tracks</string>
+    <string name="list_all_tracks_desc">Listar todas las pistas</string>
+    <string name="add_new_track_activity">Add new Track</string>
+    <string name="mensaje_all_tracks">Todas las tracks</string>
 </resources>
