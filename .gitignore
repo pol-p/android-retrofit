@@ -1,0 +1,92 @@
+# .gitignore para proyecto Android (Gradle / Android Studio)
+# Generado automáticamente — incluye reglas comunes para Android/Java/Kotlin
+
+# Build
+/build/
+**/build/
+
+# Gradle
+/.gradle/
+**/.gradle/
+
+# Local configuration file (sdk path, etc.)
+/local.properties
+
+# Keystore files (contienen claves privadas)
+*.jks
+*.keystore
+keystore.properties
+
+# Signing and debug files
+*.pem
+*.p12
+
+# Generated files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+
+# Android Studio / IntelliJ
+/.idea/
+*.iml
+/*.iml
+.idea/*
+.idea/**
+
+# Android Studio build/caches
+captures/
+.externalNativeBuild/
+.cxx/
+
+# NDK
+obj/
+*.so
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Kotlin
+*.kotlin_module
+
+# Dependency directories
+node_modules/
+
+# Coverage
+coverage/
+*.lcov
+
+# Crashlytics / Fabric
+crashlytics.properties
+fabric.properties
+
+# Google services (descomenta si mantienes el archivo fuera del repo)
+# /app/google-services.json
+
+# Env files
+.env
+.env.*
+
+# Misc
+out/
+.idea_modules/
+
+# Ignore IDE run configurations (optional)
+.idea/runConfigurations/
+
+# Ignore any local Gradle wrapper jar (normally committed, but safe to ignore if you prefer)
+# gradle/wrapper/gradle-wrapper.jar
+
+# End of .gitignore
+
