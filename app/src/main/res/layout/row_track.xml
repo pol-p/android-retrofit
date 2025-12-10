@@ -39,5 +39,15 @@
             android:textSize="10sp"
             android:layout_marginTop="8dp"/>
 
+        <ImageButton
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_delete"
+            android:background="?attr/selectableItemBackground"
+            android:padding="8dp"
+            android:contentDescription="Borrar"
+            android:focusable="false" />
+
     </LinearLayout>
 </androidx.cardview.widget.CardView>
